@@ -757,7 +757,7 @@ image_source="auto"
 #       Apricity, ArcoLinux, ArchBox, ARCHlabs, ArchStrike,
 #       XFerience, ArchMerge, Arch, Artix, Arya, Bedrock, Bitrig,
 #       BlackArch, BLAG, BlankOn, BlueLight, bonsai, BSD,
-#       BunsenLabs, Calculate, Carbs, CentOS, Chakra, ChaletOS,
+#       BunsenLabs, Calculate, Carbs, Carli, CentOS, Chakra, ChaletOS,
 #       Chapeau, Chrom*, Cleanjaro, ClearOS, Clear_Linux, Clover,
 #       Condres, Container_Linux, CRUX, Cucumber, Debian, Deepin,
 #       DesaOS, Devuan, DracOS, DragonFly, Drauger, Elementary,
@@ -4821,7 +4821,7 @@ ASCII:
                                 Apricity, ArcoLinux, ArchBox, ARCHlabs, ArchStrike,
                                 XFerience, ArchMerge, Arch, Artix, Arya, Bedrock, Bitrig,
                                 BlackArch, BLAG, BlankOn, BlueLight, bonsai, BSD,
-                                BunsenLabs, Calculate, Carbs, CentOS, Chakra, ChaletOS,
+                                BunsenLabs, Calculate, Carbs, Carli, CentOS, Chakra, ChaletOS,
                                 Chapeau, Chrom, Cleanjaro, ClearOS, Clear_Linux, Clover,
                                 Condres, Container_Linux, CRUX, Cucumber, Debian, Deepin,
                                 DesaOS, Devuan, DracOS, DragonFly, Drauger, Elementary,
@@ -5974,6 +5974,7 @@ ${c1}                              ......
      ${c2}.,,,,++++,..  .,,,,,.....,+++,.,,${c1}
 EOF
         ;;
+
     "Carbs"*)
         set_colors 4 5 4 4 4 4
         read -rd '' ascii_data <<'EOF'
@@ -5996,6 +5997,28 @@ ${c2}             ..........
           ...',;;;;;;,,...
                 .....
 EOF
+        ;;
+
+        "Carli"*)
+            set_colors 3 7
+            read -rd '' ascii_data <<'EOF'
+${c1}   ..,,;;;::;,..
+           `':ddd;:,.
+                 `'dPPd:,.
+                     `:b$$b`.
+                        'P$$$d`
+                         .$$$$$`
+                         ;$$$$$P
+                      .:P$$$$$$`
+                  .,:b$$$$$$$;'
+             .,:dP$$$$$$$$b:'
+      .,:;db$$$$$$$$$$Pd'`
+ ,db$$$$$$$$$$$$$$b:'`
+:$$$$$$$$$$$$b:'`
+ `$$$$$bd:''`
+   `'''`
+EOF
+
         ;;
 
         "centos_small"*)
